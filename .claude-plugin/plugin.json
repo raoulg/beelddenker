@@ -1,0 +1,13 @@
+{
+  "name": "beelddenker",
+  "version": "1.0.0",
+  "description": "Turns a long answer into a picture: a flow, a commuting diagram, a group action, or a visual metaphor, whichever fits the thought.",
+  "author": {
+    "name": "Raoul Grouls",
+    "url": "https://github.com/raoulg"
+  },
+  "homepage": "https://github.com/raoulg/beelddenker",
+  "repository": "https://github.com/raoulg/beelddenker",
+  "license": "MIT",
+  "keywords": ["visualization", "diagrams", "visual-thinking", "category-theory", "metaphor"]
+}

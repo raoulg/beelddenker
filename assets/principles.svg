@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="490" viewBox="0 0 800 490" role="img">
+<title>Eight of the fifteen visual principles</title>
+<desc>Top row, exact principles: flow, function or pipeline, commuting diagram, group action. Bottom row, poetic principles: tension field, metamorphosis, landscape or journey, constellation.</desc>
+<style>
+text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
+.h{font-size:15px;font-weight:600}.s{font-size:13px}.xs{font-size:11px}.big{font-size:20px}
+.ink{fill:#2C2C2A}.mut{fill:#5F5E5A}.ln{stroke:#5F5E5A}
+.tile{fill:none;stroke:#D3D1C7}
+.g{fill:#F1EFE8;stroke:#888780}.gt{fill:#444441}
+.p{fill:#EEEDFE;stroke:#534AB7}.pt{fill:#3C3489}.pl{stroke:#534AB7}.pf{fill:#534AB7}
+.t{fill:#E1F5EE;stroke:#0F6E56}.tt{fill:#085041}.tf{fill:#1D9E75}
+.c{fill:#FAECE7;stroke:#993C1D}.ct{fill:#712B13}.cl{stroke:#D85A30}.cf{fill:#D85A30}
+.hill{fill:#F1EFE8;stroke:#B4B2A9}.faint{stroke:#B4B2A9}
+@media (prefers-color-scheme:dark){
+.ink{fill:#E8E6DF}.mut{fill:#B4B2A9}.ln{stroke:#B4B2A9}
+.tile{stroke:#444441}
+.g{fill:#2C2C2A;stroke:#888780}.gt{fill:#D3D1C7}
+.p{fill:#3C3489;stroke:#AFA9EC}.pt{fill:#EEEDFE}.pl{stroke:#AFA9EC}.pf{fill:#AFA9EC}
+.t{fill:#085041;stroke:#5DCAA5}.tt{fill:#E1F5EE}.tf{fill:#5DCAA5}
+.c{fill:#712B13;stroke:#F0997B}.ct{fill:#FAECE7}.cl{stroke:#F0997B}.cf{fill:#F0997B}
+.hill{fill:#2C2C2A;stroke:#5F5E5A}.faint{stroke:#5F5E5A}}
+</style>
+<defs>
+<marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path class="ln" d="M2 1L8 5L2 9" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker>
+<marker id="ap" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path class="pl" d="M2 1L8 5L2 9" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker>
+</defs>
+
+<text class="h pt" x="30" y="34">Exact · structure that can be wrong</text>
+<rect class="tile" x="30" y="50" width="170" height="170" rx="12"/>
+<rect class="tile" x="220" y="50" width="170" height="170" rx="12"/>
+<rect class="tile" x="410" y="50" width="170" height="170" rx="12"/>
+<rect class="tile" x="600" y="50" width="170" height="170" rx="12"/>
+
+<rect class="g" x="90" y="62" width="50" height="20" rx="4"/>
+<line class="ln" x1="115" y1="82" x2="115" y2="94" stroke-width="1" marker-end="url(#a)"/>
+<polygon class="p" points="115,96 131,110 115,124 99,110"/>
+<path class="ln" d="M99 110 H75 V126" fill="none" stroke-width="1" marker-end="url(#a)"/>
+<path class="ln" d="M131 110 H155 V126" fill="none" stroke-width="1" marker-end="url(#a)"/>
+<rect class="g" x="52" y="130" width="46" height="18" rx="4"/>
+<rect class="g" x="132" y="130" width="46" height="18" rx="4"/>
+<text class="xs mut" x="80" y="104" text-anchor="middle">yes</text>
+<text class="xs mut" x="152" y="104" text-anchor="middle">no</text>
+<text class="h ink" x="115" y="200" text-anchor="middle">Flow</text>
+
+<text class="s tt" x="240" y="100" text-anchor="middle">A</text>
+<line class="ln" x1="250" y1="95" x2="271" y2="95" stroke-width="1" marker-end="url(#a)"/>
+<rect class="p" x="275" y="80" width="60" height="30" rx="5"/>
+<text class="s pt" x="305" y="100" text-anchor="middle">f</text>
+<line class="ln" x1="337" y1="95" x2="360" y2="95" stroke-width="1" marker-end="url(#a)"/>
+<text class="s tt" x="372" y="100" text-anchor="middle">B</text>
+<text class="s tt" x="240" y="155" text-anchor="middle">B</text>
+<line class="ln" x1="250" y1="150" x2="271" y2="150" stroke-width="1" marker-end="url(#a)"/>
+<rect class="p" x="275" y="135" width="60" height="30" rx="5"/>
+<text class="s pt" x="305" y="155" text-anchor="middle">g</text>
+<line class="ln" x1="337" y1="150" x2="360" y2="150" stroke-width="1" marker-end="url(#a)"/>
+<text class="s tt" x="372" y="155" text-anchor="middle">C</text>
+<text class="h ink" x="305" y="200" text-anchor="middle">Function / pipeline</text>
+
+<text class="s ink" x="450" y="85" text-anchor="middle">A</text>
+<text class="s ink" x="550" y="85" text-anchor="middle">B</text>
+<text class="s ink" x="450" y="165" text-anchor="middle">C</text>
+<text class="s ink" x="550" y="165" text-anchor="middle">D</text>
+<line class="pl" x1="462" y1="80" x2="536" y2="80" stroke-width="1.2" marker-end="url(#ap)"/>
+<line class="pl" x1="450" y1="92" x2="450" y2="148" stroke-width="1.2" marker-end="url(#ap)"/>
+<line class="pl" x1="550" y1="92" x2="550" y2="148" stroke-width="1.2" marker-end="url(#ap)"/>
+<line class="pl" x1="462" y1="160" x2="536" y2="160" stroke-width="1.2" marker-end="url(#ap)"/>
+<text class="xs mut" x="500" y="72" text-anchor="middle">f</text>
+<text class="xs mut" x="500" y="176" text-anchor="middle">k</text>
+<text class="xs mut" x="440" y="124" text-anchor="end">g</text>
+<text class="xs mut" x="560" y="124">h</text>
+<text class="big ink" x="500" y="128" text-anchor="middle">↻</text>
+<text class="h ink" x="495" y="200" text-anchor="middle">Commuting diagram</text>
+
+<path class="pl" d="M693.7 70.9 A42 42 0 0 1 726.1 103.3" fill="none" stroke-width="1.2" marker-end="url(#ap)"/>
+<path class="pl" d="M726.1 120.7 A42 42 0 0 1 693.7 153.1" fill="none" stroke-width="1.2" marker-end="url(#ap)"/>
+<path class="pl" d="M676.3 153.1 A42 42 0 0 1 643.9 120.7" fill="none" stroke-width="1.2" marker-end="url(#ap)"/>
+<path class="pl" d="M643.9 103.3 A42 42 0 0 1 676.3 70.9" fill="none" stroke-width="1.2" marker-end="url(#ap)"/>
+<circle class="pf" cx="685" cy="70" r="4"/>
+<circle class="pf" cx="727" cy="112" r="4"/>
+<circle class="pf" cx="685" cy="154" r="4"/>
+<circle class="pf" cx="643" cy="112" r="4"/>
+<text class="xs ink" x="685" y="62" text-anchor="middle">e</text>
+<text class="xs ink" x="737" y="116">r</text>
+<text class="xs ink" x="685" y="170" text-anchor="middle">r²</text>
+<text class="xs ink" x="633" y="116" text-anchor="end">r³</text>
+<text class="xs mut" x="685" y="116" text-anchor="middle">r⁴ = e</text>
+<text class="h ink" x="685" y="200" text-anchor="middle">Group action</text>
+
+<text class="h ct" x="30" y="256">Poetic · meaning that can be felt</text>
+<rect class="tile" x="30" y="270" width="170" height="170" rx="12"/>
+<rect class="tile" x="220" y="270" width="170" height="170" rx="12"/>
+<rect class="tile" x="410" y="270" width="170" height="170" rx="12"/>
+<rect class="tile" x="600" y="270" width="170" height="170" rx="12"/>
+
+<path class="faint" d="M74 340 Q115 300 156 340" fill="none" stroke-width="1"/>
+<path class="faint" d="M74 340 Q115 380 156 340" fill="none" stroke-width="1"/>
+<path class="faint" d="M74 340 Q115 320 156 340" fill="none" stroke-width="1"/>
+<path class="faint" d="M74 340 Q115 360 156 340" fill="none" stroke-width="1"/>
+<circle class="c" cx="60" cy="340" r="14"/>
+<circle class="t" cx="170" cy="340" r="14"/>
+<circle class="ink" cx="98" cy="340" r="4"/>
+<text class="xs mut" x="60" y="372" text-anchor="middle">freedom</text>
+<text class="xs mut" x="170" y="372" text-anchor="middle">structure</text>
+<text class="h ink" x="115" y="420" text-anchor="middle">Tension field</text>
+
+<circle class="c" cx="236" cy="345" r="6"/>
+<circle class="c" cx="248" cy="345" r="6"/>
+<circle class="c" cx="260" cy="345" r="6"/>
+<circle class="tf" cx="248" cy="345" r="2.5"/>
+<line class="ln" x1="270" y1="345" x2="288" y2="345" stroke-width="1" marker-end="url(#a)"/>
+<ellipse class="g" cx="304" cy="345" rx="10" ry="18"/>
+<circle class="tf" cx="304" cy="345" r="2.5"/>
+<line class="ln" x1="318" y1="345" x2="336" y2="345" stroke-width="1" marker-end="url(#a)"/>
+<ellipse class="c" cx="352" cy="336" rx="11" ry="8"/>
+<ellipse class="c" cx="374" cy="336" rx="11" ry="8"/>
+<ellipse class="c" cx="354" cy="353" rx="8" ry="6"/>
+<ellipse class="c" cx="372" cy="353" rx="8" ry="6"/>
+<circle class="tf" cx="363" cy="345" r="2.5"/>
+<text class="xs tt" x="305" y="386" text-anchor="middle">teal = what survives</text>
+<text class="h ink" x="305" y="420" text-anchor="middle">Metamorphosis</text>
+
+<path class="hill" d="M420 395 Q470 300 520 350 Q548 300 572 316 L572 395 Z" stroke-width="1"/>
+<polyline class="cl" points="432,390 478,372 456,358 496,346 476,336 512,326" fill="none" stroke-width="1.5" stroke-dasharray="4 3"/>
+<line class="ln" x1="556" y1="312" x2="556" y2="290" stroke-width="1.2"/>
+<polygon class="cf" points="556,290 570,296 556,302"/>
+<line class="faint" x1="486" y1="300" x2="530" y2="300" stroke-width="1"/>
+<line class="faint" x1="476" y1="292" x2="514" y2="292" stroke-width="1"/>
+<text class="h ink" x="495" y="420" text-anchor="middle">Landscape / journey</text>
+
+<line class="faint" x1="625" y1="310" x2="660" y2="295" stroke-width="1"/>
+<line class="faint" x1="660" y1="295" x2="700" y2="320" stroke-width="1"/>
+<line class="faint" x1="700" y1="320" x2="735" y2="300" stroke-width="1"/>
+<line class="faint" x1="700" y1="320" x2="680" y2="355" stroke-width="1"/>
+<line class="faint" x1="680" y1="355" x2="720" y2="370" stroke-width="1"/>
+<line class="faint" x1="680" y1="355" x2="640" y2="375" stroke-width="1"/>
+<circle class="cf" cx="625" cy="310" r="3"/>
+<circle class="cf" cx="660" cy="295" r="5"/>
+<circle class="cf" cx="700" cy="320" r="4"/>
+<circle class="cf" cx="735" cy="300" r="3"/>
+<circle class="cf" cx="680" cy="355" r="6"/>
+<circle class="cf" cx="720" cy="370" r="3"/>
+<circle class="cf" cx="640" cy="375" r="4"/>
+<circle class="cf" cx="750" cy="350" r="2.5"/>
+<text class="h ink" x="685" y="420" text-anchor="middle">Constellation</text>
+
+<text class="s mut" x="400" y="474" text-anchor="middle">and seven more: state machine, layers, order, matrix, spectrum, causal loop, timeline</text>
+</svg>

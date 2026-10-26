@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="370" viewBox="0 0 800 370" role="img">
+<title>Beelddenker as a commuting diagram</title>
+<desc>An answer is reduced to a skeleton and drawn as a picture. Looking at the picture must give the same insight as reading the answer, only faster.</desc>
+<style>
+text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
+.h{font-size:16px;font-weight:600}.s{font-size:13px}.big{font-size:26px}
+.ink{fill:#2C2C2A}.mut{fill:#5F5E5A}.ln{stroke:#5F5E5A}
+.g{fill:#F1EFE8;stroke:#888780}.gt{fill:#444441}
+.p{fill:#EEEDFE;stroke:#534AB7}.pt{fill:#3C3489}
+.t{fill:#E1F5EE;stroke:#0F6E56}.tt{fill:#085041}.tl{stroke:#1D9E75}
+@media (prefers-color-scheme:dark){
+.ink{fill:#E8E6DF}.mut{fill:#B4B2A9}.ln{stroke:#B4B2A9}
+.g{fill:#2C2C2A;stroke:#888780}.gt{fill:#D3D1C7}
+.p{fill:#3C3489;stroke:#AFA9EC}.pt{fill:#EEEDFE}
+.t{fill:#085041;stroke:#5DCAA5}.tt{fill:#E1F5EE}.tl{stroke:#5DCAA5}}
+</style>
+<defs>
+<marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path class="ln" d="M2 1L8 5L2 9" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker>
+<marker id="at" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path class="tl" d="M2 1L8 5L2 9" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker>
+</defs>
+<rect class="g" x="50" y="40" width="170" height="60" rx="10" stroke-width="1"/>
+<text class="h gt" x="135" y="64" text-anchor="middle">Answer</text>
+<text class="s gt" x="135" y="85" text-anchor="middle">a wall of text</text>
+<rect class="p" x="315" y="40" width="170" height="60" rx="10" stroke-width="1"/>
+<text class="h pt" x="400" y="64" text-anchor="middle">Skeleton</text>
+<text class="s pt" x="400" y="85" text-anchor="middle">objects, arrows, laws</text>
+<rect class="p" x="580" y="40" width="170" height="60" rx="10" stroke-width="1"/>
+<text class="h pt" x="665" y="64" text-anchor="middle">Picture</text>
+<text class="s pt" x="665" y="85" text-anchor="middle">exact or poetic</text>
+<rect class="t" x="315" y="250" width="170" height="60" rx="10" stroke-width="1"/>
+<text class="h tt" x="400" y="274" text-anchor="middle">Insight</text>
+<text class="s tt" x="400" y="295" text-anchor="middle">the one claim</text>
+<text class="s mut" x="267" y="60" text-anchor="middle">reduce</text>
+<line class="ln" x1="222" y1="70" x2="309" y2="70" stroke-width="1.2" marker-end="url(#a)"/>
+<text class="s mut" x="532" y="60" text-anchor="middle">draw</text>
+<line class="ln" x1="487" y1="70" x2="574" y2="70" stroke-width="1.2" marker-end="url(#a)"/>
+<path class="ln" d="M135 102 V280 H309" fill="none" stroke-width="1.2" stroke-dasharray="5 5" marker-end="url(#a)"/>
+<text class="s mut" x="147" y="196">read · slow</text>
+<path class="tl" d="M665 102 V280 H491" fill="none" stroke-width="2" marker-end="url(#at)"/>
+<text class="s tt" x="653" y="196" text-anchor="end">look · fast</text>
+<text class="big ink" x="400" y="178" text-anchor="middle">↻</text>
+<text class="s ink" x="400" y="206" text-anchor="middle">look ∘ draw ∘ reduce = read</text>
+<text class="s mut" x="400" y="352" text-anchor="middle">gray = text · purple = structure · teal = understanding · dashed = the road you want to skip</text>
+</svg>

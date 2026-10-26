@@ -1,0 +1,15 @@
+{
+  "name": "beelddenker",
+  "description": "The beelddenker skill: answers as pictures for visual thinkers.",
+  "owner": {
+    "name": "Raoul Grouls",
+    "url": "https://github.com/raoulg"
+  },
+  "plugins": [
+    {
+      "name": "beelddenker",
+      "source": "./",
+      "description": "Turns a long answer into a picture: a flow, a commuting diagram, a group action, or a visual metaphor, whichever fits the thought."
+    }
+  ]
+}
