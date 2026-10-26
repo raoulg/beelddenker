@@ -1,8 +1,8 @@
 # beelddenker
 
 *Beelddenker* is Dutch for **visual thinker**: someone who takes in a picture faster than a
-page of text. This is a skill for Claude that turns a long answer into a picture: a flow, a
-commuting diagram, a group action, or a visual metaphor, whichever fits the thought.
+page of text. This is a skill for Claude and Codex that turns a long answer into a picture:
+a flow, a commuting diagram, a group action, or a visual metaphor, whichever fits the thought.
 
 <p align="center">
   <img src="assets/hero.svg" alt="Answer, reduced to a skeleton, drawn as a picture. Looking at the picture gives the same insight as reading the answer." width="800">
@@ -25,7 +25,7 @@ staleness, so the question you actually have to answer is how stale a response m
 
 ## How it decides what to draw
 
-1. **Skeleton.** Claude reduces the answer to its objects, its arrows (what goes in, what comes
+1. **Skeleton.** The agent reduces the answer to its objects, its arrows (what goes in, what comes
    out), its order, its laws (what is equal, what stays invariant, what pulls against what),
    and the one claim the picture has to make obvious.
 2. **Register.** If the content has structure that can be wrong, the picture is *exact*. If it
@@ -39,7 +39,7 @@ staleness, so the question you actually have to answer is how stale a response m
 </p>
 
 4. **Colour.** One colour means one thing per picture, and a legend says what.
-5. **Medium.** It uses the best medium available: inline visuals in the Claude apps, an
+5. **Medium.** It uses the best medium available: inline visuals where supported, an
    artifact, Mermaid or JSON Canvas for Obsidian, tikz-cd for LaTeX, and Unicode diagrams in a
    plain terminal.
 
@@ -51,9 +51,9 @@ mirror a relation in the idea. Otherwise it is only decoration. The full method 
 ## Install
 
 <p align="center">
-  <img src="assets/install-routes.svg" alt="Where do you use Claude? Claude Code installs the plugin with two commands; the Claude app, claude.ai and any other agent start with the zip." width="800"><br>
+  <img src="assets/install-routes.svg" alt="Claude Code installs the plugin with two commands; the Claude app, claude.ai and Codex start with the zip." width="800"><br>
   <a href="https://github.com/raoulg/beelddenker/releases/latest/download/beelddenker.zip"><img src="assets/download-button.svg" alt="Download beelddenker.zip" width="800"></a><br>
-  <img src="assets/install-steps.svg" alt="Claude app: click your name, open Settings, find Skills under Customize, click Add, choose Upload skill. Any other agent: unpack the folder into ~/.claude/skills/ and start a new session." width="800">
+  <img src="assets/install-steps.svg" alt="Claude app: upload the zip in Settings under Customize, Skills. Codex: unpack the zip into ~/.agents/skills/ and invoke $beelddenker." width="800">
 </p>
 
 ### Claude app and claude.ai
@@ -89,22 +89,33 @@ You can also install it from your shell:
 claude plugin marketplace add raoulg/beelddenker && claude plugin install beelddenker@beelddenker
 ```
 
-### Any other agent that reads skills
+### Codex
 
-Unpack the same [beelddenker.zip](https://github.com/raoulg/beelddenker/releases/latest/download/beelddenker.zip)
-into your skills directory. For Claude Code without the plugin system, that directory is
-`~/.claude/skills/`. Or clone the repository and copy the folder:
+Download [beelddenker.zip](https://github.com/raoulg/beelddenker/releases/latest/download/beelddenker.zip).
+From the directory containing the download, unpack it into
+[Codex's personal skills directory](https://learn.chatgpt.com/docs/build-skills):
 
 ```bash
-git clone https://github.com/raoulg/beelddenker /tmp/beelddenker && cp -R /tmp/beelddenker/skills/beelddenker ~/.claude/skills/
+mkdir -p ~/.agents/skills
+unzip beelddenker.zip -d ~/.agents/skills
 ```
+
+The result is `~/.agents/skills/beelddenker/SKILL.md`. Codex discovers the skill automatically;
+if it does not appear, restart Codex. You can also ask Codex to install it from
+`https://github.com/raoulg/beelddenker/tree/main/skills/beelddenker` with `$skill-installer`.
+
+### Other agents that read skills
+
+Unpack the same zip into that agent's skills directory. For Claude Code without the plugin
+system, use `~/.claude/skills/`. The zip contains a `beelddenker/` folder with `SKILL.md`.
 
 ## Use
 
-- Right after a long answer, type `/beelddenker`.
+- Right after a long answer, type `/beelddenker` in the Claude app or `$beelddenker` in Codex.
 - Ask in your own words: "make it visual", "draw it", "I lost the overview", "give me a
   metaphor". Dutch works too: "maak het visueel", "teken het".
-- Give it a topic to get a visual answer from the start: `/beelddenker how does TCP work`.
+- Give it a topic to get a visual answer from the start: `$beelddenker how does TCP work`
+  in Codex, or `/beelddenker how does TCP work` in the Claude app.
 
 It answers in the language you write in.
 
