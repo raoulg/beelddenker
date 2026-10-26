@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="76" viewBox="0 0 800 76" role="img">
+<title>Download beelddenker.zip</title>
+<desc>A button that downloads the latest beelddenker.zip from GitHub Releases.</desc>
+<style>
+text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
+.h{font-size:16px;font-weight:600}.q{font-size:12px}
+.btn{fill:#534AB7;stroke:#3C3489}.bt{fill:#FFFFFF}.bs{fill:#CECBF6}.bl{stroke:#FFFFFF}
+@media (prefers-color-scheme:dark){
+.btn{fill:#AFA9EC;stroke:#CECBF6}.bt{fill:#26215C}.bs{fill:#3C3489}.bl{stroke:#26215C}}
+</style>
+<rect class="btn" x="400" y="8" width="320" height="60" rx="30" stroke-width="1"/>
+<path class="bl" d="M444 26 V44 M436 37 L444 45 L452 37 M434 50 H454" fill="none" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text class="h bt" x="470" y="35">Download beelddenker.zip</text>
+<text class="q bs" x="470" y="54">latest release · click here</text>
+</svg>

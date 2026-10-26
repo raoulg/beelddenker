@@ -51,23 +51,22 @@ mirror a relation in the idea. Otherwise it is only decoration. The full method 
 ## Install
 
 <p align="center">
-  <img src="assets/install.svg" alt="Three install routes: claude.ai or the Claude app, Claude Code, or any other agent." width="800">
+  <img src="assets/install-routes.svg" alt="Where do you use Claude? Claude Code installs the plugin with two commands; the Claude app, claude.ai and any other agent start with the zip." width="800"><br>
+  <a href="https://github.com/raoulg/beelddenker/releases/latest/download/beelddenker.zip"><img src="assets/download-button.svg" alt="Download beelddenker.zip" width="800"></a><br>
+  <img src="assets/install-steps.svg" alt="Claude app: click your name, open Settings, find Skills under Customize, click Add, choose Upload skill. Any other agent: unpack the folder into ~/.claude/skills/ and start a new session." width="800">
 </p>
 
-### claude.ai and the Claude app
+### Claude app and claude.ai
 
-Free, Pro, Max, Team and Enterprise plans all support skills.
-
-1. Turn on code execution: **Settings › Capabilities › Code execution and file creation**.
-   In the newer settings layout the switch is called **Create and edit files**.
-2. Download **[beelddenker.zip](https://github.com/raoulg/beelddenker/releases/latest/download/beelddenker.zip)**.
+1. Download **[beelddenker.zip](https://github.com/raoulg/beelddenker/releases/latest/download/beelddenker.zip)**.
    Do not unpack it.
-3. Go to **Customize › Skills**, click **+**, then **+ Create skill**.
-4. Choose **Upload a skill** and pick `beelddenker.zip`.
-5. Check that the skill is switched on in your skills list.
+2. Click your name at the bottom left.
+3. Open **Settings** (or press <kbd>⌘</kbd> <kbd>,</kbd> in the app).
+4. Under **Customize**, open **Skills**.
+5. Click **Add** at the top right and choose **Upload skill**. Pick `beelddenker.zip`.
 
-On Team and Enterprise plans, an owner has to allow skills first, under **Organization settings
-› Plugins & skills**.
+If you cannot find Skills, turn on code execution under **Settings › Capabilities** first. On
+Team and Enterprise plans, an owner has to allow skills for the organization.
 
 ### Claude Code
 
@@ -92,8 +91,9 @@ claude plugin marketplace add raoulg/beelddenker && claude plugin install beeldd
 
 ### Any other agent that reads skills
 
-Copy the skill folder into your skills directory. For Claude Code without the plugin system,
-that directory is `~/.claude/skills/`:
+Unpack the same [beelddenker.zip](https://github.com/raoulg/beelddenker/releases/latest/download/beelddenker.zip)
+into your skills directory. For Claude Code without the plugin system, that directory is
+`~/.claude/skills/`. Or clone the repository and copy the folder:
 
 ```bash
 git clone https://github.com/raoulg/beelddenker /tmp/beelddenker && cp -R /tmp/beelddenker/skills/beelddenker ~/.claude/skills/

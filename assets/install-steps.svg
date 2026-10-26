@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="380" viewBox="0 0 800 380" role="img">
+<title>After the download</title>
+<desc>In the Claude app or claude.ai: click your name at the bottom left, open Settings, go to Customize, Skills, click Add at the top right and choose Upload skill. In any other agent: unpack the folder into the skills directory and start a new session.</desc>
+<style>
+text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
+.h{font-size:15px;font-weight:600}.s{font-size:13px;font-weight:600}.m{font-size:12px;font-family:ui-monospace,SFMono-Regular,Menlo,monospace}.q{font-size:12px}
+.ln{stroke:#5F5E5A}
+.g{fill:#F1EFE8;stroke:#888780}.gt{fill:#444441}.gs{fill:#5F5E5A}
+.p{fill:#EEEDFE;stroke:#534AB7}.pt{fill:#3C3489}.ps{fill:#534AB7}.pl{stroke:#534AB7}
+.step{fill:none;stroke:#D3D1C7}
+@media (prefers-color-scheme:dark){
+.ln{stroke:#B4B2A9}
+.g{fill:#2C2C2A;stroke:#888780}.gt{fill:#D3D1C7}.gs{fill:#B4B2A9}
+.p{fill:#3C3489;stroke:#AFA9EC}.pt{fill:#EEEDFE}.ps{fill:#CECBF6}.pl{stroke:#AFA9EC}
+.step{stroke:#444441}}
+</style>
+<defs>
+<marker id="ap" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path class="pl" d="M2 1L8 5L2 9" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker>
+</defs>
+<path class="pl" d="M560 0 V18 H210 V34" fill="none" stroke-width="1.5" marker-end="url(#ap)"/>
+<path class="pl" d="M560 18 H590 V34" fill="none" stroke-width="1.5" marker-end="url(#ap)"/>
+
+<rect class="p" x="30" y="40" width="360" height="40" rx="8" stroke-width="1"/>
+<text class="h pt" x="210" y="65" text-anchor="middle">Claude app · claude.ai</text>
+<rect class="g" x="410" y="40" width="360" height="40" rx="8" stroke-width="1"/>
+<text class="h gt" x="590" y="65" text-anchor="middle">Any other agent</text>
+
+<rect class="step" x="30" y="100" width="360" height="44" rx="6"/>
+<text class="s pt" x="44" y="118">1  Click your name</text>
+<text class="q ps" x="62" y="135">bottom left</text>
+<rect class="step" x="30" y="154" width="360" height="44" rx="6"/>
+<text class="s pt" x="44" y="172">2  Open Settings</text>
+<text class="q ps" x="62" y="189">or press ⌘ , in the app</text>
+<rect class="step" x="30" y="208" width="360" height="44" rx="6"/>
+<text class="s pt" x="44" y="226">3  Find Skills under Customize</text>
+<text class="q ps" x="62" y="243">at the bottom of the left column</text>
+<rect class="step" x="30" y="262" width="360" height="44" rx="6"/>
+<text class="s pt" x="44" y="280">4  Click Add</text>
+<text class="q ps" x="62" y="297">top right</text>
+<rect class="step" x="30" y="316" width="360" height="44" rx="6"/>
+<text class="s pt" x="44" y="334">5  Choose Upload skill</text>
+<text class="q ps" x="62" y="351">pick beelddenker.zip</text>
+
+<rect class="step" x="410" y="100" width="360" height="44" rx="6"/>
+<text class="s gt" x="424" y="118">1  Unpack the folder into</text>
+<text class="m gs" x="442" y="135">~/.claude/skills/</text>
+<rect class="step" x="410" y="154" width="360" height="44" rx="6"/>
+<text class="s gt" x="424" y="172">2  Start a new session</text>
+<text class="q gs" x="442" y="189">the skill loads by itself</text>
+<rect class="step" x="410" y="208" width="360" height="44" rx="6"/>
+<text class="s gt" x="424" y="226">3  Ask for a picture</text>
+<text class="m gs" x="442" y="243">/beelddenker</text>
+</svg>
